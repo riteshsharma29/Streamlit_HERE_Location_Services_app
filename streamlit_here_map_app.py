@@ -22,7 +22,7 @@ st.title("**" + "Sreamlit - HERE Location Services app" + "**")
 @st.cache(allow_output_mutation=True)
 def get_longitude_latitude(location):
     URL = "https://geocode.search.hereapi.com/v1/geocode"
-    api_key = 'JLNY_3cD8-rC2FSlkXx0CokBRNJelYnAY4v9EkJbCIw'  # Acquire from developer.here.com
+    api_key = 'UPDATE-YOUR-JAVASCRIPT-API-KEY'  # Acquire from developer.here.com
     PARAMS = {'apikey': api_key, 'q': location}
     # sending get request and saving the response as response object
     r = requests.get(url=URL, params=PARAMS)
