@@ -1,5 +1,7 @@
 # Streamlit_HERE_Location_Services_app
 
+Requires : Python >=3.x, all python modules can be installed using pip, local server used is xampp.
+
 1) Source demo.html,demo.js,demo.css used from : https://github.com/heremaps/maps-api-for-javascript-examples/tree/master/map-at-specified-location
 
 2) Place demo.html,demo.css inside C:\xampp\htdocs 
